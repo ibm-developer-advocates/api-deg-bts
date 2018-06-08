@@ -1,0 +1,7 @@
+applications:
+  - name: deg-bts
+    memory: 512M
+    routes:
+      - route: deg-bts.mybluemix.net
+    env:
+      NODE_ENV: prod

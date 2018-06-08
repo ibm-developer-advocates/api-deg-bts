@@ -1,0 +1,6 @@
+applications:
+  - name: snack-track-io
+    routes:
+      - route: snack-track-io.mybluemix.net
+    env:
+      NODE_ENV: prod

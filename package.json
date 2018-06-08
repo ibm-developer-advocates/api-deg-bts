@@ -1,0 +1,32 @@
+{
+	"name": "snacktrack.io",
+	"description": "Food ingredient origin tracking tool",
+	"author": "snacktrack.io",
+	"version": "1.0.0",
+	"main": "server.js",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git clone git@bitbucket.org:snacktrack/snacktrack-be.git"
+	},
+	"bugs": {
+		"url": "https://bitbucket.org/snacktrack/snacktrack-be/issues?status=new&status=open"
+	},
+	"scripts": {
+		"test": "jest",
+		"start": "NODE_ENV=production PORT=8080 node server.js"
+	},
+	"engines": {
+		"node": ">8.x.x",
+		"npm": "5.x.x"
+	},
+	"dependencies": {
+		"express": "^4.16.3",
+		"morgan": "^1.8.2",
+		"string": "^3.3.3"
+	},
+	"devDependencies": {
+		"babel-eslint": "^8.2.3",
+		"jest": "^22.4.3"
+	}
+}
